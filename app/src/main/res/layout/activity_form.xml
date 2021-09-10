@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.FormActivity">
+
+    <EditText
+        android:id="@+id/et_title"
+        style="@style/et_style"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/et_content"
+        style="@style/et_style"
+        android:hint="Content" />
+
+    <EditText
+        android:id="@+id/et_user"
+        style="@style/et_style"
+        android:inputType="number"
+        android:hint="User" />
+
+    <EditText
+        android:id="@+id/et_group"
+        style="@style/et_style"
+        android:hint="Group"
+        android:inputType="number" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Send"
+        android:id="@+id/btn_send"
+        android:inputType="number"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
